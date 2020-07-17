@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+.navbar{
+    border-bottom: 3px solid #0E72A4;
+    opacity: 0.8;
+}
+#home-section{
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;
+}
+#home-section .dark-overlay{
+    background-color: rgba(0, 0 ,0 , 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 900px;
+}
+#home-section .home-inner{
+    padding-top: 150px;
+}
+.card-form{
+    opacity: 0.7;
+}
